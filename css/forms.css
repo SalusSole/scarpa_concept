@@ -1,0 +1,44 @@
+h2 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+ 
+}
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+input[type='text'], [type='password'], [type='email']{
+	background: none;
+    border: none;
+	border-bottom: solid 2px #969696;
+	color: #292929;
+	font-size: 1.100em;
+    letter-spacing: 2px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+    text-align: center;
+    
+	width: 100%;
+    margin-top: 20px;
+}
+.btn-default {
+
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+}
+.btn-default:hover {
+  background: #474544;
+  color: #F2F3EB;
+}

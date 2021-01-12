@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "na": "MONKSTRAP",
+        "precio": "3999",
+        "talla": "25",
+        "color": "Negro"
+    },
+    {
+        "eliminado": 1
+    }
+]
