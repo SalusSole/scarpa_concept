@@ -65,10 +65,10 @@ include "nav.php";
 					<?php
                     #Conectamos con MySQL
                  // $conexion = mysqli_connect("localhost", "root", "") or die ("Fallo en la conexión");
-                   $conexion = mysqli_connect("localhost", "scarpapos", "1c999b218") or die ("Fallo en la conexión");
+                   $conexion = mysqli_connect("localhost", "u850652173_scarpaposAdmin", "scarpaposAdminPassword07") or die ("Fallo en la conexión");
                     
                     #Seleccionamos la base de datos a utilizar
-                    mysqli_select_db($conexion, "scarpapos") or die ("Fallo en la selección de la BD");
+                    mysqli_select_db($conexion, "u850652173_scarpapos") or die ("Fallo en la selección de la BD");
                     $Resultado=mysqli_query($conexion, "SELECT * FROM `productos` WHERE `existencia`>5;");
                     #echo '<tr class="fontT"><th>Nombre</th><th>Precio</th><th>Imagen de muestra</th></tr>';
                     
