@@ -2,9 +2,9 @@
 $host="localhost";
 #$user="root";
 #$password="";
-$user="scarpapos";
-$password="1c999b218";
-$db="scarpapos";
+$user="	u850652173_scarpaposAdmin";
+$password="scarpaposAdminPassword07";
+$db="u850652173_scarpapos";
 $con = new mysqli($host,$user,$password,$db);
 
 ?>
